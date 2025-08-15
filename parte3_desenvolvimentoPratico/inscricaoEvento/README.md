@@ -1,14 +1,15 @@
 # 📋 Página de Inscrição em Evento
 
 Uma página simples para inscrição em um evento, desenvolvida com **React** e **Vite**.  
-O sistema permite cadastrar inscritos, validar e-mails e excluir registros.
+O sistema permite cadastrar inscritos, validar e-mails, filtrar por nome e excluir registros.
 
 ---
 
 ## ✨ Funcionalidades
 1. **Cadastrar nome e e-mail**  
 2. **Validação de e-mail** (formato correto antes de cadastrar)  
-3. **Excluir inscritos**  
+3. **Excluir inscritos** 
+4. **Filtrar inscritos por nome** 
 
 ---
 
