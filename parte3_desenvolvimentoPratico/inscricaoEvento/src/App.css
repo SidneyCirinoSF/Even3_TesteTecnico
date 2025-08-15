@@ -1,0 +1,151 @@
+.app {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 2.4rem;
+  color: #2c3e50;
+}
+
+.subscribed-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.inscrito {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease;
+}
+
+.inscrito:hover {
+  background-color: #e8f0fe;
+}
+
+.content p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.content p:first-child {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #1a73e8;
+}
+
+button {
+  background-color: #e74c3c;
+  border: none;
+  color: white;
+  font-weight: 700;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+  font-size: 0.9rem;
+  user-select: none;
+}
+
+button:hover {
+  background-color: #c0392b;
+}
+
+.inscrito-form {
+  max-width: 600px;
+  margin: 40px auto 60px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.inscrito-form h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  color: #2c3e50;
+}
+
+.inscrito-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.inscrito-form input[type="text"] {
+  padding: 12px 15px;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.search input[type="text"] {
+  padding: 8px 6px;
+  font-size: 0.75rem;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+}
+
+.inscrito-form input[type="text"]:focus {
+  outline: none;
+  border-color: #1a73e8;
+  box-shadow: 0 0 8px rgba(26,115,232,0.3);
+}
+
+.inscrito-form button[type="submit"] {
+  background-color: #27ae60; 
+  border: none;
+  color: white;
+  font-weight: 700;
+  padding: 12px 0;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  user-select: none;
+  transition: background-color 0.3s ease;
+}
+
+.inscrito-form button[type="submit"]:hover {
+  background-color: #219150; 
+}
+
+
+/* Responsividade */
+@media (max-width: 480px) {
+  .inscrito {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  button {
+    align-self: stretch;
+    width: 100%;
+    text-align: center;
+  }
+}
